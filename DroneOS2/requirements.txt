@@ -1,0 +1,6 @@
+pydantic>=2.7.0
+pydantic-settings>=2.0.0
+pyyaml>=6.0
+msgpack-rpc-python>=0.4.1
+mavsdk>=2.5.0
+psutil>=5.9.0

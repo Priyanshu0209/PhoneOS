@@ -1,0 +1,7 @@
+pydantic==2.13.4
+pydantic-settings==2.14.2
+pydantic_core==2.46.4
+PyYAML==6.0.3
+qasync==0.28.0
+# DroneOS core does not require PySide6. GroundStation does.
+PySide6==6.11.1
