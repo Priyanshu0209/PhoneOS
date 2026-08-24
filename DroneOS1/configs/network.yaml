@@ -1,0 +1,8 @@
+host: "0.0.0.0"
+port: 14550
+broadcast_address: "255.255.255.255"
+peer_host: null
+peer_port: 14551
+heartbeat_interval: 1.0
+telemetry_interval: 0.5
+connection_timeout: 10.0

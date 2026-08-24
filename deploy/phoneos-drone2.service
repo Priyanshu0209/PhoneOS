@@ -1,0 +1,18 @@
+[Unit]
+Description=PhoneOS Drone2 Unified Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi2
+WorkingDirectory=/home/pi2/Projects/PhoneOS
+Environment="PYTHONPATH=/home/pi2/Projects/PhoneOS"
+ExecStart=/home/pi2/Projects/PhoneOS/venv/bin/python start_drone2.py
+Restart=on-failure
+RestartSec=5s
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

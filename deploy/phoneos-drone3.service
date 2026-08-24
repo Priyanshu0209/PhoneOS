@@ -1,0 +1,18 @@
+[Unit]
+Description=PhoneOS Drone3 Unified Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi3
+WorkingDirectory=/home/pi3/Projects/PhoneOS
+Environment="PYTHONPATH=/home/pi3/Projects/PhoneOS"
+ExecStart=/home/pi3/Projects/PhoneOS/venv/bin/python start_drone3.py
+Restart=on-failure
+RestartSec=5s
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

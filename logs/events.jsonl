@@ -31,3 +31,27 @@
 {"timestamp": 1787474248.271276, "source": "DRONEOS", "severity": "INFO", "drone_id": "drone1", "event": "COMMAND_BACKEND_RECEIVED", "message": "ARM BACKEND_RECEIVED"}
 {"timestamp": 1787474248.2714028, "source": "DRONEOS", "severity": "INFO", "drone_id": "drone1", "event": "COMMAND_SENDING", "message": "ARM SENDING"}
 {"timestamp": 1787474248.2720046, "source": "DRONEOS", "severity": "ERROR", "drone_id": "drone1", "event": "COMMAND_REJECTED", "message": "ARM REJECTED: ActionError: Pre-arm checks failed"}
+{"timestamp": 1787510406.573585, "source": "DRONEOS", "severity": "INFO", "drone_id": "test_node", "event": "COMMAND_BACKEND_RECEIVED", "message": "ARM BACKEND_RECEIVED"}
+{"timestamp": 1787510406.5745, "source": "DRONEOS", "severity": "INFO", "drone_id": "test_node", "event": "COMMAND_SENDING", "message": "ARM SENDING"}
+{"timestamp": 1787510406.5766134, "source": "DRONEOS", "severity": "ERROR", "drone_id": "test_node", "event": "COMMAND_REJECTED", "message": "ARM REJECTED: GPS 1: Bad fix"}
+{"timestamp": 1787510406.7106473, "source": "DRONEOS", "severity": "INFO", "drone_id": "drone1", "event": "COMMAND_BACKEND_RECEIVED", "message": "ARM BACKEND_RECEIVED"}
+{"timestamp": 1787510406.710835, "source": "DRONEOS", "severity": "INFO", "drone_id": "drone1", "event": "COMMAND_SENDING", "message": "ARM SENDING"}
+{"timestamp": 1787510406.7118165, "source": "DRONEOS", "severity": "ERROR", "drone_id": "drone1", "event": "COMMAND_REJECTED", "message": "ARM REJECTED: ActionError: Pre-arm checks failed"}
+{"timestamp": 1787510742.3591182, "source": "DRONEOS", "severity": "INFO", "drone_id": "test_node", "event": "COMMAND_BACKEND_RECEIVED", "message": "ARM BACKEND_RECEIVED"}
+{"timestamp": 1787510742.360032, "source": "DRONEOS", "severity": "INFO", "drone_id": "test_node", "event": "COMMAND_SENDING", "message": "ARM SENDING"}
+{"timestamp": 1787510742.3614578, "source": "DRONEOS", "severity": "ERROR", "drone_id": "test_node", "event": "COMMAND_REJECTED", "message": "ARM REJECTED: GPS 1: Bad fix"}
+{"timestamp": 1787510742.493003, "source": "DRONEOS", "severity": "INFO", "drone_id": "drone1", "event": "COMMAND_BACKEND_RECEIVED", "message": "ARM BACKEND_RECEIVED"}
+{"timestamp": 1787510742.4932187, "source": "DRONEOS", "severity": "INFO", "drone_id": "drone1", "event": "COMMAND_SENDING", "message": "ARM SENDING"}
+{"timestamp": 1787510742.4940877, "source": "DRONEOS", "severity": "ERROR", "drone_id": "drone1", "event": "COMMAND_REJECTED", "message": "ARM REJECTED: ActionError: Pre-arm checks failed"}
+{"timestamp": 1787511320.4914052, "source": "DRONEOS", "severity": "INFO", "drone_id": "test_node", "event": "COMMAND_BACKEND_RECEIVED", "message": "ARM BACKEND_RECEIVED"}
+{"timestamp": 1787511320.4923346, "source": "DRONEOS", "severity": "INFO", "drone_id": "test_node", "event": "COMMAND_SENDING", "message": "ARM SENDING"}
+{"timestamp": 1787511320.493833, "source": "DRONEOS", "severity": "ERROR", "drone_id": "test_node", "event": "COMMAND_REJECTED", "message": "ARM REJECTED: GPS 1: Bad fix"}
+{"timestamp": 1787511320.6207697, "source": "DRONEOS", "severity": "INFO", "drone_id": "drone1", "event": "COMMAND_BACKEND_RECEIVED", "message": "ARM BACKEND_RECEIVED"}
+{"timestamp": 1787511320.620978, "source": "DRONEOS", "severity": "INFO", "drone_id": "drone1", "event": "COMMAND_SENDING", "message": "ARM SENDING"}
+{"timestamp": 1787511320.6220407, "source": "DRONEOS", "severity": "ERROR", "drone_id": "drone1", "event": "COMMAND_REJECTED", "message": "ARM REJECTED: ActionError: Pre-arm checks failed"}
+{"timestamp": 1787512414.8456852, "source": "DRONEOS", "severity": "INFO", "drone_id": "test_node", "event": "COMMAND_BACKEND_RECEIVED", "message": "ARM BACKEND_RECEIVED"}
+{"timestamp": 1787512414.8475113, "source": "DRONEOS", "severity": "INFO", "drone_id": "test_node", "event": "COMMAND_SENDING", "message": "ARM SENDING"}
+{"timestamp": 1787512414.849229, "source": "DRONEOS", "severity": "ERROR", "drone_id": "test_node", "event": "COMMAND_REJECTED", "message": "ARM REJECTED: GPS 1: Bad fix"}
+{"timestamp": 1787512414.994434, "source": "DRONEOS", "severity": "INFO", "drone_id": "drone1", "event": "COMMAND_BACKEND_RECEIVED", "message": "ARM BACKEND_RECEIVED"}
+{"timestamp": 1787512414.9949691, "source": "DRONEOS", "severity": "INFO", "drone_id": "drone1", "event": "COMMAND_SENDING", "message": "ARM SENDING"}
+{"timestamp": 1787512414.9963126, "source": "DRONEOS", "severity": "ERROR", "drone_id": "drone1", "event": "COMMAND_REJECTED", "message": "ARM REJECTED: ActionError: Pre-arm checks failed"}

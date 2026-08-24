@@ -1,0 +1,20 @@
+[Unit]
+Description=SwarmOS DroneOS Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/opt/SwarmOS
+ExecStartPre=/bin/sleep 5
+ExecStart=/opt/SwarmOS/venv/bin/python3 -m DroneOS.main /opt/SwarmOS/DroneOS/configs/
+Restart=always
+RestartSec=5
+Environment=PYTHONPATH=/opt/SwarmOS
+# Optional: Set AirSim / PX4 variables here if required by specific adapters
+Environment=MAVLINK_BAUD=115200
+
+[Install]
+WantedBy=multi-user.target
