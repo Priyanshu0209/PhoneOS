@@ -3,6 +3,9 @@
 ## Overview
 PhoneOS is a comprehensive project designed for drone operation, command, and control. The system includes a Python-based core (DroneOS) for direct drone communication via MAVSDK, a relay component for handling real-time communications, and a mobile application built with React, Vite, and Capacitor that serves as a ground control interface with mapping capabilities (using Leaflet).
 
+## Documentation
+- [PhoneOS Deployment Manual](assets/documents/phoneos-deployment-manual.pdf)
+
 ## Features
 - **Drone Control and Telemetry**: Uses MAVSDK for communicating with drones via Python (DroneOS).
 - **Communication Relay**: A Python-based WebSocket relay server for bridging communications.
